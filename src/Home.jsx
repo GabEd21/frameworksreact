@@ -13,6 +13,7 @@ function Home(){
     return(
         <div>
             <h1>Welcome to my world.</h1>
+            <a href='/addstudent'><button type="button" class="btn btn-outline-primary">Add Student</button></a>
             <table class="table table-hover">
                 <thead>
                     <tr>
