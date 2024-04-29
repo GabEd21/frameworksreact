@@ -5,7 +5,7 @@ import Axios from 'axios'
 function Home(){
     const [students, setStudents] = useState([])
     useEffect(() =>{
-        Axios.get('http://localhost:8000/studentslist').then((response) => {
+        Axios.get('http://localhost:2000/').then((response) => {
             setStudents(response.data);
         })
       }, [])

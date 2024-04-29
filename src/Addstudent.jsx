@@ -27,7 +27,7 @@ function Addstudent() {
         console.log(age)
         console.log(course)
         console.log(subjects)
-        Axios.post('http://localhost:8000/addstudent', { name, age, course, subjects })
+        Axios.post('http://localhost:2000/', { name, age, course, subjects })
         .then(response => {
             console.log('Response:', response.data);
             navigate('/', { replace: true });
